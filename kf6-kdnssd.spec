@@ -26,6 +26,8 @@ BuildRequires: doxygen
 BuildRequires: cmake(Qt6ToolsTools)
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6QuickTest)
+BuildRequires: pkgconfig(avahi-core)
+BuildRequires: pkgconfig(avahi-client)
 Requires: %{libname} = %{EVRD}
 
 %description
