@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DNSSD
 %define devname %mklibname KF6DNSSD -d
-%define git 20230527
+%define git 20230605
 
 Name: kf6-kdnssd
 Version: 5.240.0
