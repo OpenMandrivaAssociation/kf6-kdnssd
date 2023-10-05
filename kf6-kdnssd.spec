@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DNSSD
 %define devname %mklibname KF6DNSSD -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kdnssd
 Version: 5.240.0
@@ -72,7 +72,6 @@ Network service discovery using Zeroconf
 %files -n %{devname}
 %{_includedir}/KF6/KDNSSD
 %{_libdir}/cmake/KF6DNSSD
-%{_qtdir}/mkspecs/modules/qt_KDNSSD.pri
 %{_qtdir}/doc/KF6DNSSD.*
 
 %files -n %{libname}
