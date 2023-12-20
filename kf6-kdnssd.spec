@@ -5,7 +5,7 @@
 #define git 20231103
 
 Name: kf6-kdnssd
-Version: 5.246.0
+Version: 5.247.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kdnssd/-/archive/master/kdnssd-master.tar.bz2#/kdnssd-%{git}.tar.bz2
