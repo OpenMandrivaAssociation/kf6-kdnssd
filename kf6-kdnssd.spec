@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kdnssd
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kdnssd/-/archive/master/kdnssd-master.tar.bz2#/kdnssd-%{git}.tar.bz2
@@ -79,7 +79,6 @@ Network service discovery using Zeroconf
 %files -n %{devname}
 %{_includedir}/KF6/KDNSSD
 %{_libdir}/cmake/KF6DNSSD
-%{_qtdir}/doc/KF6DNSSD.*
 
 %files -n %{libname}
 %{_libdir}/libKF6DNSSD.so*
